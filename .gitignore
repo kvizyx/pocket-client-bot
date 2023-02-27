@@ -1,0 +1,7 @@
+.idea
+.bin
+
+configs/config.main.yaml
+
+*.db
+*db.lock

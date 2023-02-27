@@ -1,0 +1,10 @@
+responses:
+  start: "Hi, @%s! Nice to see you! \nFirst of all, i need your permission to interact with your Pocket account. To do this, follow this link: %s"
+  unknown_command: "I dont understand what you want ☹️ \nTry /help to see all available commands"
+  link_saved: "Done! Just saved your link!"
+  already_authorized: "You are already authorized! Send me link and i will save it to your Pocket account!"
+
+errors:
+  default: "Sorry but i can't perform your request now 😵"
+  invalid_link: "The link you sent is not valid 😕"
+  unauthorized: "You are not authorized yet! Type /start to continue"
