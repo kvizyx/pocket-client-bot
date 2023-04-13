@@ -54,8 +54,6 @@ func main() {
 	if err := tgBot.Start(); err != nil {
 		log.Fatalf("cannot start bot: %s", err)
 	}
-
-	//	TODO: graceful shutdown
 }
 
 func initDB(cfg *config.Config) (*bolt.DB, error) {
